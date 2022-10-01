@@ -10,8 +10,8 @@ android {
     compileSdk 30
 
     defaultConfig {
-        applicationId "daniel.lop.io.marvelappstarter"
-        minSdk 22
+        applicationId "eduardo.souza.io.marvelappstarter"
+        minSdk 26
         targetSdk 30
         versionCode 1
         versionName "1.0"
@@ -88,6 +88,7 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
     implementation "com.squareup.okhttp3:logging-interceptor:4.9.1"
+    implementation 'com.google.code.gson:gson:2.8.7'
 
     // Navigation Components
     implementation "androidx.navigation:navigation-fragment-ktx:$navigation_version"
